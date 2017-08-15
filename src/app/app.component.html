@@ -22,6 +22,21 @@
       <td>lowercase</td>
       <td [innerHtml]="nombre | lowercase"></td>
     </tr>
+     <tr>
+      <td [innerHtml]="nombre"></td>
+      <td>slice:3</td>
+      <td [innerHtml]="nombre | slice:3"></td>
+    </tr>
+    <tr>
+      <td [innerHtml]="nombre"></td>
+      <td>slice:0:3</td>
+      <td [innerHtml]="nombre | slice:0:3"></td>
+    </tr>
+     <tr>
+      <td [innerHtml]="arreglo"></td>
+      <td>slice:1:5</td>
+      <td [innerHtml]="arreglo | slice:1:5"></td>
+    </tr>
   </tbody>
 </table>
 
