@@ -14,4 +14,6 @@ export class AppComponent {
 
   PI: number = Math.PI;
 
+  a: number = 0.234;
+
 }
