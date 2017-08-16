@@ -102,6 +102,16 @@
       <td>date:'MMMM - dd'</td> 
       <td [innerHtml]="fecha | date:'MMMM - dd'"></td>
     </tr> 
+    <tr>
+      <td [innerHtml]="nombre2"></td>
+      <td>capitalizado</td> 
+      <td [innerHtml]="nombre2 | capitalizado"></td>
+    </tr> 
+     <tr>
+      <td [innerHtml]="nombre2"></td>
+      <td>capitalizado:false</td> 
+      <td [innerHtml]="nombre2 | capitalizado:false"></td>
+    </tr>
   </tbody>
 </table>
 
