@@ -87,6 +87,21 @@
       <td>async</td>
       <td [innerHtml]="valorDePromesa |async"></td>
     </tr> 
+     <tr>
+      <td [innerHtml]="fecha"></td>
+      <td>date</td>
+      <td [innerHtml]="fecha | date"></td>
+    </tr> 
+     <tr>
+      <td [innerHtml]="fecha"></td>
+      <td>date:'medium'</td> 
+      <td [innerHtml]="fecha | date:'medium'"></td>
+    </tr> 
+    <tr>
+      <td [innerHtml]="fecha"></td>
+      <td>date:'MMMM - dd'</td> 
+      <td [innerHtml]="fecha | date:'MMMM - dd'"></td>
+    </tr> 
   </tbody>
 </table>
 
