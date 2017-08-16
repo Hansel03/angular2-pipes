@@ -57,6 +57,31 @@
       <td>percent:'2.2-2'</td>
       <td [innerHtml]="a | percent:'2.2-2'"></td>
     </tr>
+    <tr>
+      <td [innerHtml]="salario"></td>
+      <td>currency</td>
+      <td [innerHtml]="salario | currency"></td>
+    </tr>
+     <tr>
+      <td [innerHtml]="salario"></td>
+      <td>currency:'COP'</td>
+      <td [innerHtml]="salario | currency:'COP'"></td>
+    </tr>
+      <tr>
+      <td [innerHtml]="salario"></td>
+      <td>currency:'EUR':true</td>
+      <td [innerHtml]="salario | currency:'EUR':true"></td>
+    </tr>
+       <tr>
+      <td [innerHtml]="salario"></td>
+      <td>currency:'EUR':true:'4.0-0'</td>
+      <td [innerHtml]="salario | currency:'EUR':true:'4.0-0'"></td>
+    </tr> 
+      <tr>
+      <td [innerHtml]="salario"></td>
+      <td>number:'.2-2'</td>
+      <td [innerHtml]="salario |number:'.2-2'"></td>
+    </tr> 
   </tbody>
 </table>
 
