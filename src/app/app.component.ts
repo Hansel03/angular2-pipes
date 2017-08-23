@@ -38,4 +38,6 @@ export class AppComponent {
 
   video = '3gWXdAVfiLE';
 
+  activar: boolean = true;
+
 }
