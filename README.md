@@ -16,3 +16,5 @@ para correr la aplicación utilizar:
 ```sh
 $ ng server
 ```
+
+Luego abrir en el navegador http://localhost:4200
